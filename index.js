@@ -1,14 +1,14 @@
 function draw() {
-  let snakeCanvas = document.getElementById('snakeBoard');
-  let ctx = snakeCanvas.getContext('2d');
+  let snakeCanvas = document.getelementbyid('snakeBoard');
+  let ctx = snakeCanvas.getcontext('2d');
 
   //play with this
-  ctx.fillStyle = 'purple';
-  ctx.fillRect(60, 100, 20, 20);
+  context.fillStyle = 'purple';
+  context.fillRect(60, 100, 20, 20);
 
-  ctx.fillStyle = 'red';
-  ctx.fillRect(20, 40, 20, 20);
+  context.fillStyle = 'red';
+  context.fillRect(20, 40, 20, 20);
 
-  ctx.fillStyle = 'green';
-  ctx.fillRect(0, 0, 20, 20);
+  context.fillStyle = 'green';
+  context.fillRect(0, 0, 20, 20);
 }
